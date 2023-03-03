@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.abec2593.css",
-    "main.js": "/static/js/main.405bbabc.js",
-    "index.html": "/index.html",
-    "main.abec2593.css.map": "/static/css/main.abec2593.css.map",
-    "main.405bbabc.js.map": "/static/js/main.405bbabc.js.map"
+    "main.css": "/Lista-de-Tareas-con-React/static/css/main.abec2593.css",
+    "main.js": "/Lista-de-Tareas-con-React/static/js/main.405bbabc.js",
+    "index.html": "/Lista-de-Tareas-con-React/index.html",
+    "main.abec2593.css.map": "/Lista-de-Tareas-con-React/static/css/main.abec2593.css.map",
+    "main.405bbabc.js.map": "/Lista-de-Tareas-con-React/static/js/main.405bbabc.js.map"
   },
   "entrypoints": [
     "static/css/main.abec2593.css",
