@@ -1,0 +1,20 @@
+@import '_imports.scss';
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  margin-top: 1rem;
+  & .task:nth-child(3n+1){
+    background-color: $negro;
+  }
+  & .task:nth-child(3n+2){
+    background-color: lighten($negro,3);
+  }
+  & .task:nth-child(3n+3){
+    background-color: lighten($negro,8);
+  }
+}

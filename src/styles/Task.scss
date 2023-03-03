@@ -1,0 +1,47 @@
+@import '_imports.scss';
+
+.task{
+  background-color: $negro;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+  padding: .2rem 1rem;
+  cursor: pointer;
+  transition: all 150ms;
+  &>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    @media screen and (max-width:599px) {
+      flex-direction: column;
+      justify-content: center;
+      padding: .2rem 0;
+    }
+    h1{
+      font-size: 1rem;
+      letter-spacing: 1px;
+      margin-right: 1rem;
+      text-transform: capitalize;
+    }
+    .completed-tag{
+      background-color: lighten($rosado,10);
+      color: white;
+      border-radius: 10px;
+      padding: .3rem .5rem;
+      font-weight: bold;
+      font-size: .7rem;
+      text-transform: uppercase;
+      transition: all 150ms;
+      user-select: none;
+    }
+  }
+}
+.completed{
+  background-color: $morado !important;
+}
+.task-icon{
+  color: white;
+  font-size: 1.4rem;
+  user-select: none;
+}
